@@ -20,3 +20,16 @@ $(window).load(function() {
     animation: "slide"
   });
 });
+
+
+
+/* Cargar Menu left  Productos*/
+
+$(document).ready(function() {
+
+    $("#MenuLeftContainer").load('menu_left_principal.html');
+
+
+});
+
+/* Cargar Menu left  Productos*/

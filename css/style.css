@@ -16,6 +16,7 @@ body{font-family: Arial, Helvetica, sans-serif;  }
 .sinMarginBottom{margin-bottom:0px!important;}
 .sinMarginTop{margin-top:0px!important;}
 .marginTop7{margin-top:7px!important;}
+.marginTop17{margin-top:17px!important;}
 .marginTop10{margin-top:10px!important;}
 .marginBottom10{margin-bottom:10px!important;}
 .marginLeft45{margin-left:45px!important;}
@@ -23,7 +24,7 @@ body{font-family: Arial, Helvetica, sans-serif;  }
 .paddingBottom10{padding-bottom:10px!important;}
 .paddingLeft10{padding-left:10px!important;}
 .paddingRight10{padding-right:10px!important;}
-
+h2{color:#4C0218; font-size:14px; font-weight:bold;}
 /* ===================================Estilos Generales ==============================*/
 
 
@@ -95,5 +96,94 @@ margin-left:10px;
 
 
 
+/* ===================================Estilos Menú Lateral ==============================*/
+#menu{
+/*	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;*/
+	-webkit-box-shadow:1px 1px 3px #888;
+	-moz-box-shadow:1px 1px 3px #888;
+	/*overflow:hidden!important;*/
+	padding-left: 0px;
+	margin-top: 0px;
+}
+#MenuLeftContainer .blqC1 {
+	/*overflow:hidden!important;*/
+	
+	
+}
+
+#menu li{border-bottom:1px solid #FFF;}
+#menu ul li, #menu li:last-child{border:none;}	
+#menu a{
+	display:block;
+	color:#006;
+	text-decoration:none;
+	font-family:'Helvetica', Arial, sans-serif;
+	font-size:13px;
+	padding:3px 5px;
+	/*text-shadow:1px 1px 1px #ccc;*/
+}
+#menu a:hover{
+	color:#182D70;
+	background-color:#918F83;
+	-webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+#menu .btnactive{
+	color:#182D70;
+	-webkit-transition: color 0.2s linear;
+	background-color:#ccc;
+}
+
+.bloqMn p{
+	color:#006;
+}
+
+
+#menu ul a{
+/*background-color:#6594D1;*/
+background-color:#ccc;
+}
+#menu ul a:hover{
+	background-color:#FFF;
+	/*color:#2961A9;*/
+	color:#918F83;
+	/*border-top: solid 1px #000;
+	border-bottom: solid 1px #000;*/
+	text-shadow:none;
+	-webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+	
+}
+#menu ul{
+	display:block;
+	background-color:#2961A9;
+	margin:0;
+	padding:0;
+	/*width:234px;*/
+	list-style:none;
+	overflow:hidden!important;
+}
+#menu ul{
+/*background-color:#6594D1;*/
+background-color:#ccc;
+
+
+}
+#menu li ul {display:none;}
+
+
+#menu ol, ul {
+    list-style: outside none none;
+}
+
+
+/* ===================================Estilos Menú Lateral ==============================*/
 
 

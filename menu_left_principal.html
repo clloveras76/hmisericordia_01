@@ -1,0 +1,69 @@
+
+		<div class="blqContainer blqNivel2 blqC1" style="margin-left:5px;min-height:373px; background-color:#234377;z-index:100000000;overflow:hidden; overflow-y:hidden;">
+							
+			<ul id="menu" style="line-height: 1.3;">
+			
+			
+				<li id="Intem1mnprod" style="background-color:#234377;" class="BtonblqMn"><a  style="font-size:16px;font-weight:bold; color:#fff; padding-top:7px!important; padding-bottom:7px!important;" href="#">QUIENES SOMOS</a>
+				<ul class="bloqMn">
+					<li><a id="LanaLnk1" href="#">.Nuestra Congregación</a></li>
+					<li><a id="LanaLnk2" href="#">.Nuestro Saludo</a></li>
+					<li><a id="LanaLnk3" href="#">.Filiales Provincia Argentina</a></li>
+					
+				</ul>
+			</li>
+			<li id="Intem2mnprod" style="background-color:#234377; border-bottom:solid 1px;" class="BtonblqMn2"><a  style="font-size:16px;font-weight:bold;  color:#fff; padding-top:7px!important; padding-bottom:7px!important;" href="#">HISTORIA</a>
+				<ul class="bloqMn">
+					<li><a id="LanaLnk4" href="#">.Nuestra Madre Fundadora</a></li>
+					<li><a id="LanaLnk5" href="#">.Nuestra Historia en la Argentina</a></li>	
+				</ul>
+			</li>
+			
+			<li id="Intem3mnprod" style="background-color:#234377; border-bottom:solid 1px;" class="BtonblqMn2"><a  style="font-size:16px;font-weight:bold;  color:#fff; padding-top:7px!important; padding-bottom:7px!important;" href="#">EVENTOS REALIZADOS</a>
+				<ul class="bloqMn">
+					<li><a id="LanaLnk6" href="#">.2013</a></li>
+					<li><a id="LanaLnk7" href="#">.2012</a></li>
+					<li><a id="LanaLnk8" href="#">.2011</a></li>
+				</ul>
+			</li>
+			
+			
+			<li id="Intem4mnprod" style="background-color:#234377; border-bottom:solid 1px;" class="BtonblqMn2"><a  style="font-size:16px;font-weight:bold;  color:#fff; padding-top:7px!important; padding-bottom:7px!important;" href="#">PASTORAL</a>
+				<ul class="bloqMn">
+					<li><a id="LanaLnk9" href="#">.Juvenil Vocacional</a></li>
+					<li><a id="LanaLnk10" href="#">.Educativa</a></li>
+				</ul>
+			</li>
+			
+			
+			
+			
+			
+			
+			</ul>		
+		</div>
+		
+		
+
+
+<script type="text/javascript">
+
+/* Script Menu left desplegable*/
+
+$(function(){
+	$('#menu li a').click(function(event){
+		var elem = $(this).next();
+		if(elem.is('ul')){
+			event.preventDefault();
+			$('#menu ul:visible').not(elem).slideUp();
+			elem.slideToggle();
+		}
+	});
+});
+
+/* Script Menu left desplegable*/
+
+</script>
+
+		
+		
