@@ -180,7 +180,7 @@ margin-left:10px;
 }
 #menu a:hover{
 	color:#182D70;
-	background-color:#918F83;
+	background-color:#918F83;	
 	-webkit-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
@@ -197,6 +197,10 @@ margin-left:10px;
 	color:#006;
 }
 
+.bloqMn a:hover{
+	background-color:#4C0218!important;
+	color:#fff!important;
+}
 
 #menu ul a{
 /*background-color:#6594D1;*/

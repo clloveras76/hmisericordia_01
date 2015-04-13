@@ -23,7 +23,7 @@ $(window).load(function() {
 
 
 
-/* Cargar Menu left  Productos*/
+/* Cargar Menu left  Home*/
 
 $(document).ready(function() {
 
@@ -32,4 +32,20 @@ $(document).ready(function() {
 
 });
 
-/* Cargar Menu left  Productos*/
+/* Cargar Menu left  Home*/
+
+
+
+/* Cargar Menu Right  Home*/
+
+$(document).ready(function() {
+
+    $("#MenuRightContainer").load('menu_right_principal.html');
+
+
+});
+
+/* Cargar Menu Right  Home*/
+
+
+
