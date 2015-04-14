@@ -49,3 +49,40 @@ $(document).ready(function() {
 
 
 
+/* Cargar Caja TXT PRincipal Insert QSomos_NuestraCongregacion */
+
+$(document).ready(function() {
+
+    $("#CajaTxtPrincipalContainer").load('QSomos_NuestraCongregacion.html');
+
+
+});
+
+/* Cargar  Caja TXT PRincipal Insert QSomos_NuestraCongregacion */
+
+
+
+
+function cklink_funcion(chcklink){
+	
+	
+	if(chcklink=="LanaLnk1"){
+			/* Cargar Caja TXT PRincipal Insert QSomos_NuestraCongregacion */
+			$(document).ready(function() {
+				$("#CajaTxtPrincipalContainer").load('QSomos_NuestraCongregacion.html');
+			});
+			/* Cargar  Caja TXT PRincipal Insert QSomos_NuestraCongregacion */
+	}
+	
+	
+	if(chcklink=="LanaLnk4"){
+			/* Cargar Caja TXT PRincipal Insert QSomos_MadreFundadora */
+			$(document).ready(function() {
+				$("#CajaTxtPrincipalContainer").load('QSomos_MadreFundadora.html');
+			});
+			/* Cargar  Caja TXT PRincipal Insert QSomos_MadreFundadora */
+	}
+	
+
+	}
+
