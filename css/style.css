@@ -251,6 +251,7 @@ background-color:#ccc;
 .listMfundadora{margin-top:5px;margin-bottom:5px;}
 .listMfundadora li a{ text-decoration:none;color:#000;}
 .listMfundadora li{ list-style-type:square;color:#4C0218; font-size:12px;}
+.listMfundadora a:hover{color:#4C0218;font-weight:bold;}
 
 /* ===================================EstilosMadre Filiales ==============================*/
 
