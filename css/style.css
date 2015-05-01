@@ -17,10 +17,15 @@ body{font-family: 'Droid Sans', sans-serif;}
 .height108{height:108px!important;}
 .sinMarginBottom{margin-bottom:0px!important;}
 .sinMarginTop{margin-top:0px!important;}
+.sinMarginLeft{margin-left:0px!important;}
 .marginTop7{margin-top:7px!important;}
 .marginTop17{margin-top:17px!important;}
+.marginTop5{margin-top:5px!important;}
 .marginTop10{margin-top:10px!important;}
+.marginBottom5{margin-bottom:5px!important;}
+.marginBottom2{margin-bottom:2px!important;}
 .marginBottom10{margin-bottom:10px!important;}
+.marginBottom20{margin-bottom:20px!important;}
 .marginLeft45{margin-left:45px!important;}
 .displayBlock{display:block;}
 .paddingBottom10{padding-bottom:10px!important;}
@@ -29,6 +34,11 @@ body{font-family: 'Droid Sans', sans-serif;}
 h2{color:#4C0218; font-size:15px; font-weight:bold; margin-top:10px; margin-bottom:10px;}
 h3{color:#4C0218; font-size:14px; font-weight:bold; margin-bottom:10px;}
 p{  text-align: justify;}
+.StrongUnderline{font-weight:bold; text-decoration:underline;}
+
+.margin5{
+ margin:5px;
+}
 
 /* ===================================Estilos Generales ==============================*/
 
@@ -108,7 +118,7 @@ margin-left:10px;
 }
 
 .nota01 p{
- font-size:12px;
+ font-size:13px;
 }
 
 
@@ -258,5 +268,14 @@ background-color:#ccc;
 
 .listFilialesArg{margin-top:5px;margin-bottom:5px;}
 .listFilialesArg li a{ text-decoration:none;color:blue;}
-.listFilialesArg li{ list-style-type:square; font-size:12px; margin-bottom:10px;}
+.listFilialesArg li{ list-style-type:square; font-size:13px; margin-bottom:10px;}
 
+
+.descriptionSubTitle{
+	font-size:12px;
+}
+
+.listMenuTopSection{margin-top:5px;margin-bottom:5px;}
+.listMenuTopSection li a{ text-decoration:none;color:#000;}
+.listMenuTopSection li{ list-style-type:square;color:#4C0218; font-size:12px;}
+.listMenuTopSection a:hover{color:#4C0218;font-weight:bold;}

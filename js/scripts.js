@@ -13,15 +13,14 @@ $(function(){
 
 
 
-
+$(document).ready(function() {
 // Can also be used with $(document).ready()
 $(window).load(function() {
   $('.flexslider').flexslider({
     animation: "slide"
   });
 });
-
-
+});
 
 /* Cargar Menu left  Home*/
 
@@ -46,6 +45,10 @@ $(document).ready(function() {
 });
 
 /* Cargar Menu Right  Home*/
+
+
+
+
 
 
 
