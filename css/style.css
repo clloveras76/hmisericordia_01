@@ -7,6 +7,7 @@
 .clearFloat{clear: both;}
 body{font-family: 'Droid Sans', sans-serif;}
 .strongclass{font-weight:bold;}
+.italicclass{font-style: italic;}
 .width120{width:120px!important;}
 .width155{width:155px!important;}
 .width165{width:165px!important;}
@@ -31,16 +32,17 @@ body{font-family: 'Droid Sans', sans-serif;}
 .paddingBottom10{padding-bottom:10px!important;}
 .paddingLeft10{padding-left:10px!important;}
 .paddingRight10{padding-right:10px!important;}
-h2{color:#4C0218; font-size:15px; font-weight:bold; margin-top:10px; margin-bottom:10px;}
-h3{color:#4C0218; font-size:14px; font-weight:bold; margin-bottom:10px;}
+h2{color:#4C0218; font-size:16px; font-weight:bold; margin-top:10px; margin-bottom:10px;}
+h3{color:#4C0218; font-size:15px; font-weight:bold; margin-bottom:10px;}
 p{  text-align: justify;}
+.fontsize10{font-size:10px!important;}
 .StrongUnderline{font-weight:bold; text-decoration:underline;}
 
 .margin5{
  margin:5px;
 }
 
-.BorderBottom3{ border-bottom:solid 3px #4C0218;}
+.BorderBottom3{ border-bottom:solid 3px #4C0218;border-top:solid 3px #4C0218; background-color:#4C0218; color:#fff; text-align:center;}
 
 /* ===================================Estilos Generales ==============================*/
 /*   Estilos Sroll up    */
@@ -56,7 +58,7 @@ p{  text-align: justify;}
 			text-indent:-9999px;
 			background: url('../images/icon_top.png') no-repeat;
 		}
-
+.gototop { display:none; }
 /* ===================================Estilos Home ==============================*/
 
 
@@ -293,3 +295,9 @@ background-color:#ccc;
 .listMenuTopSection li a{ text-decoration:none;color:#000;}
 .listMenuTopSection li{ list-style-type:square;color:#4C0218; font-size:12px;}
 .listMenuTopSection a:hover{color:#4C0218;font-weight:bold;}
+
+
+
+/* Estilos Celebraciones y Subsidios -  ADVIENTO */
+.advientoSeccion .nota01 p.strongclass{text-decoration:underline;}
+/* Estilos Celebraciones y Subsidios -  ADVIENTO */

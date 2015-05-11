@@ -76,11 +76,27 @@ $(document).ready(function() {
 	
 	/* script scrol up */
 
-
-
-
-
-
+/* scroll animate */
+jQuery(document).ready(function(){
+    $('h2').append('<a href="#top" class="gototop">Subir</a>');
+    linkInterno = $('a[href^="#"]');
+    linkInterno.on('click',function(e) {
+    e.preventDefault();
+	var chlinkup = $(this).attr('href');
+	
+    if(chlinkup != "scrollup"){
+	
+	var href = $(this).attr('href');
+    $('html, body').animate({ scrollTop : $( href ).offset().top }, 'slow');
+    
+	}
+	
+	
+	});
+	
+	
+});
+/* script scrol up */
 
 
 
