@@ -14,6 +14,7 @@ body{font-family: 'Droid Sans', sans-serif;}
 .width226{width:226px!important;}
 .width280{width:280px!important;}
 .width290{width:290px!important;}
+.width300{width:300px!important;}
 .width505{width:505px!important;}
 .height108{height:108px!important;}
 .sinMarginBottom{margin-bottom:0px!important;}
@@ -40,6 +41,18 @@ p{  text-align: justify;}
 
 .margin5{
  margin:5px;
+}
+.nota01 ul li{font-size:13px;}
+
+.listDecoration li {
+  list-style-type: square;
+  font-size: 12px;
+  margin-bottom:10px;
+}
+
+.simpleList li{
+  margin-bottom:10px;
+  
 }
 
 .BorderBottom3{ border-bottom:solid 3px #4C0218;border-top:solid 3px #4C0218; background-color:#4C0218; color:#fff; text-align:center;}
