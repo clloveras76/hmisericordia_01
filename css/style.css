@@ -58,6 +58,13 @@ p{  text-align: justify;}
 	margin-bottom:10px;
 }
 
+.alinkDecoration{
+	text-decoration:none;
+}
+.alinkDecoration:hover{
+	text-decoration:underline;
+}
+
 .BorderBottom3{ border-bottom:solid 3px #4C0218;border-top:solid 3px #4C0218; background-color:#4C0218; color:#fff; text-align:center;}
 
 /* ===================================Estilos Generales ==============================*/
